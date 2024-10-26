@@ -1,0 +1,52 @@
+# Ignore build artifacts
+**/build/
+**/dist/
+
+# Ignore source code directories that are not part of the main project
+/node_modules/
+/tests/
+/tests/test_main.py
+/tests/test_models.py
+/tests/test_routers.py
+/utils/helpers.py
+
+# Ignore database configuration files
+*.env.example
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore test coverage reports
+coverage.xml
+coverage.py
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore editor backup files
+*.swp
+*.bak
+
+# Ignore local development configurations
+/local.py
+/local_settings.py
+
+# Ignore documentation files
+*.rst
+
+# Ignore pycache directories
+__pycache__/
+
+# Ignore macOS hidden files
+.DS_Store
+
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+
+# Ignore temporary files
+*.tmp
+
+# Ignore local history files
+.git/
