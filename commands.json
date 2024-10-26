@@ -1,0 +1,8 @@
+{
+  "commands": [
+    "pip install -r requirements.txt",
+    "createdb request_response_system",
+    "psql -U postgres -d request_response_system -c \"CREATE EXTENSION IF NOT EXISTS pgcrypto\"",
+    "python main.py"
+  ]
+}
